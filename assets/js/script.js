@@ -1,11 +1,11 @@
 // Favicon
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Sanjana Athena";
+    document.title = "Portfolio | Mohith";
     $("#favicon").attr("href", "assets/img/foto/logo.png");
   } else {
     document.title = "Welcome to My Portfolio";
-    $("#favicon").attr("href", "assets/img/foto/mainchar.png");
+    $("#favicon").attr("href", "assets/img/foto/Profile.png");
   }
 });
 document.addEventListener('DOMContentLoaded', (event) => {
